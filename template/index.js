@@ -5,9 +5,9 @@ import app from "./src/app.js";
 import conf from "./config/index.js";
 import { normalizePort, shutdownOnExceptionHandler, shutdownOnSignalHandler } from "./utils/helpers.js";
 
-const server = createServer(app)
+const server = createServer(app);
 
-const processUncaught = ["uncaughtException", "unhandledRejection"]
+const processUncaught = ["uncaughtException", "unhandledRejection"];
 
 processUncaught.forEach((exceptionStr) => {
     process.on(exceptionStr, shutdownOnExceptionHandler(exceptionStr, logger))
