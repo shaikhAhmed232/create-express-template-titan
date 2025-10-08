@@ -1,0 +1,19 @@
+{
+  "name": "create-express-template-titan",
+  "version": "1.0.0",
+  "description": "A boilerplate generator for Express.js apps",
+  "bin": {
+    "create-express-template-titan": "./bin/express-template-generator.js"
+  },
+  "keywords": [
+    "express",
+    "template",
+    "starter"
+  ],
+  "author": "Ahmed Shaikh",
+  "files": [
+    "bin",
+    "template"
+  ],
+  "license": "ISC"
+}
