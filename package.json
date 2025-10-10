@@ -1,6 +1,6 @@
 {
   "name": "create-express-template-titan",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "A boilerplate generator for Express.js apps",
   "bin": {
     "create-express-template-titan": "./bin/express-template-generator.js"
